@@ -9,6 +9,7 @@ user3 = User.objects.create_user(username='user3')
 auth1 = Author.objects.create(name='author1', user=user1)
 auth2 = Author.objects.create(name='author2', user=user2)
 auth3 = Author.objects.create(name='author3', user=user3)
+auth4 = Author.objects.create(name='author4', user=user3)
 
 
 Category.objects.create(category_name='events')
